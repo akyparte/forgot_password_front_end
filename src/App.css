@@ -1,38 +1,28 @@
-.App {
-  text-align: center;
+/* for signup page */
+.mrgn {
+  margin-top: 15px;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+/* for signup page */
+
+.c-p {
+  padding-top: 60px !important;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+.c-p-sp-b {
+  padding-top: 30px !important;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+.ch-pass-btn {
+  margin-bottom: 60px;
+}
+
+
+.error-message {
+  color: red;
+  padding-bottom: 8px;
+  font-size: 15px;
   display: flex;
-  flex-direction: column;
   align-items: center;
   justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
-}
-
-.App-link {
-  color: #61dafb;
-}
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
 }
